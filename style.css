@@ -1,0 +1,40 @@
+
+.bg {
+  background-image: url("im.jpg");
+  height: 100%; 
+  background-position: center;
+  
+    background-size: cover;
+}
+	.drumkit{
+		height: 100vh;
+		display:flex;
+		  flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.drum{
+		padding: 20px 30px;
+		margin:  10px;
+		text-align: center;
+		border :2px solid blue;
+		border-radius:25px;
+		cursor: pointer;
+		 background: blue;
+	}
+
+	@keyFrames drum-animation{
+		from{
+			background-color: red;
+		}
+		to{
+			background-color:orange;
+		}
+	}
+h1{
+color:red;
+
+font-size:50px;
+}
+
